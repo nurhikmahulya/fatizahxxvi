@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Profil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="modal-content" id="profileContent"></div>
+
+<script>
+const data = JSON.parse(localStorage.getItem("profil"));
+
+function getHari(tgl) {
+  const hari = ["Minggu","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"];
+  const [d,m,y] = tgl.split("-");
+  return hari[new Date(`${y}-${m}-${d}`).getDay()];
+}
+
+function getTanggalLengkap(tgl) {
+  const bulan = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
+  const [d,m,y] = tgl.split("-");
+  return `${d} ${bulan[m-1]} ${y}`;
+}
+
+function getUmur(tgl) {
+  const [d,m,y] = tgl.split("-");
+  const b = new Date(`${y}-${m}-${d}`);
+  const t = new Date();
+  let u = t.getFullYear() - b.getFullYear();
+  if (t < new Date(t.getFullYear(), m-1, d)) u--;
+  return u;
+}
+
+document.getElementById("profileContent").innerHTML = `
+  <img src="${data.foto}" class="profile-img">
+  <h2>${data.nama_lengkap}</h2>
+  <p>${getHari(data.tanggal_lahir)}, ${getTanggalLengkap(data.tanggal_lahir)}</p>
+  <p>${getUmur(data.tanggal_lahir)} tahun</p>
+  <p><b>${data.kelas}</b></p>
+  <p class="quote">"${data.quote}"</p>
+
+  <br>
+  <button onclick="window.history.back()">← Kembali</button>
+`;
+</script>
+
+</body>
+</html>

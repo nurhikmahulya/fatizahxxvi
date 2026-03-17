@@ -1,0 +1,177 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: linear-gradient(270deg, #dbeafe, #bfdbfe, #93c5fd);
+  background-size: 600% 600%;
+  animation: gradientMove 12s ease infinite;
+}
+
+/* BACKGROUND GERAK */
+@keyframes gradientMove {
+  0% {background-position: 0%}
+  50% {background-position: 100%}
+  100% {background-position: 0%}
+}
+
+/* WELCOME */
+.welcome {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  text-align: center;
+}
+
+.welcome h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.welcome h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.welcome button {
+  margin-top: 20px;
+  padding: 10px 30px;
+  border-radius: 25px;
+  border: none;
+  background: white;
+  color: #1e3a8a;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.welcome button:hover {
+  transform: scale(1.05);
+}
+
+/* HEADER */
+.title {
+  text-align: center;
+  color: #1e3a8a;
+  margin-top: 20px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #3b82f6;
+  margin-bottom: 10px;
+}
+
+.btn-home {
+  margin: 15px;
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: none;
+  background: #1e3a8a;
+  color: white;
+  cursor: pointer;
+}
+
+/* GRID */
+#container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+
+/* FOTO ZOOM */
+.card img {
+  width: 100%;
+  height: auto;
+  transition: 0.3s;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+/* NAMA MUNCUL */
+.card h3 {
+  margin-top: 10px;
+  font-size: 14px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: 0.3s;
+}
+
+.card:hover h3 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* MODAL */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+  background: white;
+  margin: 8% auto;
+  padding: 25px;
+  width: 320px;
+  border-radius: 25px;
+  text-align: center;
+  animation: muncul 0.3s ease;
+}
+
+/* ANIMASI MODAL */
+@keyframes muncul {
+  from {transform: scale(0.7); opacity: 0;}
+  to {transform: scale(1); opacity: 1;}
+}
+
+/* FOTO PROFIL */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* QUOTE */
+.quote {
+  font-style: italic;
+  color: #3b82f6;
+  margin-top: 10px;
+}
+
+/* ULTAH */
+.ultah {
+  text-align: center;
+  font-weight: bold;
+  color: #1e40af;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  #container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
