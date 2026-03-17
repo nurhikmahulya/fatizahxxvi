@@ -4,7 +4,7 @@ const anggota = [
     nama_panggilan: "Alda",
     nama_lengkap: "Alda Nurdania",
     tanggal_lahir: "20-02-2004",
-    foto: "alda.jpeg",
+    foto: "alda.JPEG",
     kelas: "IPA 3",
     quote: "aldanrdna"
   },
