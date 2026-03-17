@@ -4,7 +4,7 @@ const anggota = [
     nama_panggilan: "Alda",
     nama_lengkap: "Alda Nurdania",
     tanggal_lahir: "20-02-2004",
-    foto: "images/alda.JPEG",
+    foto: "alda.JPEG",
     kelas: "IPA 3",
     quote: "aldanrdna"
   },
@@ -13,7 +13,7 @@ const anggota = [
     nama_panggilan: "Ama",
     nama_lengkap: "DK Nurmuliana Safitry As",
     tanggal_lahir: "18-09-2003",
-    foto: "images/ama.JPEG",
+    foto: "ama.JPEG",
     kelas: "IPS 2",
     quote: "nurmuliaana"
   },
@@ -22,7 +22,7 @@ const anggota = [
     nama_panggilan: "Amel",
     nama_lengkap: "Ameliya",
     tanggal_lahir: "27-09-2003",
-    foto: "images/amel.JPEG",
+    foto: "amel.JPEG",
     kelas: "IPS 2",
     quote: "ameliyarfk"
   },
@@ -31,7 +31,7 @@ const anggota = [
     nama_panggilan: "Andica",
     nama_lengkap: "Andi Aurannisa Fatmawati",
     tanggal_lahir: "24-08-2003",
-    foto: "images/andica.JPEG",
+    foto: "andica.JPEG",
     kelas: "IPA 3",
     quote: "auranisa_fatmawati"
   },
@@ -40,7 +40,7 @@ const anggota = [
     nama_panggilan: "Andis",
     nama_lengkap: "Andi Khairunnisa",
     tanggal_lahir: "28-03-2004",
-    foto: "images/andis.JPEG",
+    foto: "andis.JPEG",
     kelas: "IPS 2",
     quote: "theycallmeandiss"
   },
@@ -49,7 +49,7 @@ const anggota = [
     nama_panggilan: "Anjel",
     nama_lengkap: "Anjelita",
     tanggal_lahir: "09-10-2003",
-    foto: "images/anjel.JPEG",
+    foto: "anjel.JPEG",
     kelas: "IPS 2",
     quote: "anjelitaaa__09"
   },
@@ -58,7 +58,7 @@ const anggota = [
     nama_panggilan: "Ate",
     nama_lengkap: "Andi Altia Kusuma Dewi",
     tanggal_lahir: "01-01-2005",
-    foto: "images/ate.JPEG",
+    foto: "ate.JPEG",
     kelas: "IPA 3",
     quote: "andi.altia_"
   },
@@ -67,7 +67,7 @@ const anggota = [
     nama_panggilan: "Aya",
     nama_lengkap: "Sri Nurul Hidayah",
     tanggal_lahir: "30-04-2004",
-    foto: "images/aya.JPEG",
+    foto: "aya.JPEG",
     kelas: "IPA 2",
     quote: "_yayaaay4"
   },
@@ -76,7 +76,7 @@ const anggota = [
     nama_panggilan: "Cica",
     nama_lengkap: "Nurul Asisah",
     tanggal_lahir: "01-03-2004",
-    foto: "images/cica.JPEG",
+    foto: "cica.JPEG",
     kelas: "IPS 2",
     quote: "_aasisah"
   },
@@ -85,7 +85,7 @@ const anggota = [
     nama_panggilan: "Eka",
     nama_lengkap: "Eka Puspita Adnur",
     tanggal_lahir: "14-03-2004",
-    foto: "images/eka.JPEG",
+    foto: "eka.JPEG",
     kelas: "IPA 2",
     quote: "ekapsptadnr"
   },
@@ -94,7 +94,7 @@ const anggota = [
     nama_panggilan: "Elip",
     nama_lengkap: "Valina Jamaluddin",
     tanggal_lahir: "31-05-2004",
-    foto: "images/elip.JPEG",
+    foto: "elip.JPEG",
     kelas: "IPA 2",
     quote: "valina_jamaluddin"
   },
@@ -103,7 +103,7 @@ const anggota = [
     nama_panggilan: "Hike",
     nama_lengkap: "Nurhikma Hakim",
     tanggal_lahir: "06-12-2004",
-    foto: "images/hike.JPEG",
+    foto: "hike.JPEG",
     kelas: "IPA 2",
     quote: "nurhikmahakim_"
   },
@@ -112,7 +112,7 @@ const anggota = [
     nama_panggilan: "Ilmi",
     nama_lengkap: "Ilmi Sukni Ramadani",
     tanggal_lahir: "26-10-2004",
-    foto: "images/ilmi.JPEG",
+    foto: "ilmi.JPEG",
     kelas: "IPA 2",
     quote: "ilmisukni_"
   },
@@ -121,7 +121,7 @@ const anggota = [
     nama_panggilan: "Ima",
     nama_lengkap: "Maftuha Husnaeni",
     tanggal_lahir: "30-12-2002",
-    foto: "images/ima.JPEG",
+    foto: "ima.JPEG",
     kelas: "IPS 2",
     quote: "maftuhahsnn_"
   },
@@ -130,7 +130,7 @@ const anggota = [
     nama_panggilan: "Kina",
     nama_lengkap: "Andi Nur Ilmih Sakinah",
     tanggal_lahir: "12-03-2004",
-    foto: "images/kina.JPEG",
+    foto: "kina.JPEG",
     kelas: "IPA 3",
     quote: "_khyongg"
   },
@@ -139,7 +139,7 @@ const anggota = [
     nama_panggilan: "Nisa",
     nama_lengkap: "Anisa Filsa",
     tanggal_lahir: "18-03-2004",
-    foto: "images/nisa.JPEG",
+    foto: "nisa.JPEG",
     kelas: "IPS 2",
     quote: "nisafils_sf"
   },
@@ -148,7 +148,7 @@ const anggota = [
     nama_panggilan: "Noya",
     nama_lengkap: "Nadya Fitrah",
     tanggal_lahir: "05-03-2004",
-    foto: "images/noya.JPEG",
+    foto: "noya.JPEG",
     kelas: "IPA 3",
     quote: "nadyaftrh_"
   },
@@ -157,7 +157,7 @@ const anggota = [
     nama_panggilan: "Pute",
     nama_lengkap: "Febriyanty Putri Zasilia",
     tanggal_lahir: "27-02-2004",
-    foto: "images/pute.JPEG",
+    foto: "pute.JPEG",
     kelas: "IPS 2",
     quote: "putrizaaasssh_"
   },
@@ -166,7 +166,7 @@ const anggota = [
     nama_panggilan: "Rika",
     nama_lengkap: "Rika Zhahirah",
     tanggal_lahir: "04-10-2004",
-    foto: "images/rika.JPEG",
+    foto: "rika.JPEG",
     kelas: "IPA 3",
     quote: "rkaaazhr___"
   },
@@ -175,7 +175,7 @@ const anggota = [
     nama_panggilan: "Rina",
     nama_lengkap: "Rina Asmi",
     tanggal_lahir: "26-08-2003",
-    foto: "images/rina.JPEG",
+    foto: "rina.JPEG",
     kelas: "IPS 2",
     quote: "rinaasmi_"
   },
@@ -184,7 +184,7 @@ const anggota = [
     nama_panggilan: "Selep",
     nama_lengkap: "Selvi Nafila",
     tanggal_lahir: "13-10-2004",
-    foto: "images/selvi.JPEG",
+    foto: "selvi.JPEG",
     kelas: "IPS 2",
     quote: "selvynafilaa_"
   },
@@ -193,7 +193,7 @@ const anggota = [
     nama_panggilan: "Tea",
     nama_lengkap: "Siti Mutia Nurpadilah",
     tanggal_lahir: "03-03-2005",
-    foto: "images/tea.JPEG",
+    foto: "tea.JPEG",
     kelas: "IPA 2",
     quote: "mutiapadh"
   },
@@ -202,7 +202,7 @@ const anggota = [
     nama_panggilan: "Tiara",
     nama_lengkap: "Tiara Fadlyah Hamid",
     tanggal_lahir: "06-10-2004",
-    foto: "images/tiara.JPEG",
+    foto: "tiara.JPEG",
     kelas: "IPA 3",
     quote: "tiarafadlyah"
   },
@@ -211,7 +211,7 @@ const anggota = [
     nama_panggilan: "Ulya",
     nama_lengkap: "Sitti Nurhikmah Ulya",
     tanggal_lahir: "24-08-2004",
-    foto: "images/ulya.JPEG",
+    foto: "ulya.JPEG",
     kelas: "IPS 2",
     quote: "nurhikmah_ulya"
   },
@@ -220,7 +220,7 @@ const anggota = [
     nama_panggilan: "Mumu",
     nama_lengkap: "Ummu Kalsum",
     tanggal_lahir: "30-11-2003",
-    foto: "images/ummu.JPEG",
+    foto: "ummu.JPEG",
     kelas: "IPA 2",
     quote: "_ummukalsumm"
   },
@@ -229,7 +229,7 @@ const anggota = [
     nama_panggilan: "Yunna",
     nama_lengkap: "Ainur Gunna",
     tanggal_lahir: "26-05-2004",
-    foto: "images/yunna.JPEG",
+    foto: "yunna.JPEG",
     kelas: "IPA 2",
     quote: "ainur.yna"
   }
